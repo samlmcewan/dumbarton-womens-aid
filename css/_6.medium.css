@@ -4,5 +4,23 @@
     .top-bar .bar a, .top-bar .bar p {
         font-size: 1rem;
     }
+
+    .hero .circle-text-svg {
+        width: 30rem;
+        margin-left: -15rem;
+        
+
+    }
+
+    .hero img {
+        object-position: center;
+    }
+
+    .domestic-abuse .card-link {
+        width: 25%;
+    }
+    .domestic-abuse .card-link h3 {
+        font-size: 1.25rem;
+    }
     
 }
