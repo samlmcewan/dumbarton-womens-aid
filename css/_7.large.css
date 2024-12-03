@@ -1,0 +1,8 @@
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .top-bar .bar a, .top-bar .bar p {
+        font-size: 1.25rem;
+    }
+
+}
