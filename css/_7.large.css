@@ -4,5 +4,13 @@
     .top-bar .bar a, .top-bar .bar p {
         font-size: 1.25rem;
     }
+    .who-help .circle-text-svg {
+        width: 20rem;
+    }
+    .how-help ul li a {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
 
 }

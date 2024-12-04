@@ -13,6 +13,16 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+h2 {
+    color: var(--purple);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+section {
+    overflow: hidden;
+}
+
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -339,11 +349,6 @@ svg .text-container div p span {
     margin-right: .25rem;
     display: inline-block;
     transition: all .3s;
-    /* display: inline-block;
-    width: 100%;
-    height: 1px;
-    background-color: var(--blue);
-    margin: 1rem 0; */
 }
 
 .domestic-abuse .card-link {
@@ -368,4 +373,115 @@ svg .text-container div p span {
 .domestic-abuse .card-link:hover p::before {
     transform: translateX(.125rem);
     color: var(--white);
+}
+/*--------------------------------------------------------------
+# Who we can help
+--------------------------------------------------------------*/
+.who-help .container {
+    position: relative;
+}
+.who-help .circle-text-svg {
+    padding: 3rem;
+}
+.who-help .container .circle-text-svg:nth-of-type(1) {
+    margin-bottom: -12rem;
+}
+.who-help .container .circle-text-svg:nth-of-type(2) {
+    margin-top: -12rem;
+}
+.who-help img {
+    width: 225%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transform: translateX(-25%);
+    z-index: -1;
+}
+/*--------------------------------------------------------------
+# How we can help you
+--------------------------------------------------------------*/
+.how-help {
+    margin-top: -10rem;
+}
+.how-help .container-fluid{
+    background-color: var(--lightGray);
+}
+.how-help p {
+    color: var(--purple);
+    font-size: 1.5rem;
+    line-height: calc(1.7*1.5rem);
+}
+.how-help ul li a {
+    text-decoration: none;
+}
+.how-help ul li {
+    font-size: 2.25rem;
+    font-weight: 700;
+    /* display: flex;
+    justify-content: space-between; */
+    align-items: end;
+    margin: .75rem 0;
+    transition: all .3s;
+}
+.how-help ul li span {
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: .5rem;
+    transition: all .3s;
+}
+.how-help ul li span::after {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: 0.5em;
+    margin-bottom: .3rem;
+    vertical-align: middle;
+    transition: all .3s;
+}
+.how-help ul li:nth-of-type(4n+1) a {
+    color: var(--blue);
+}
+.how-help ul li:nth-of-type(4n+2) a {
+    color: var(--pink);
+}
+.how-help ul li:nth-of-type(4n+3) a {
+    color: var(--green);
+}
+.how-help ul li:nth-of-type(4n+4) a {
+    color: var(--purple);
+}
+.how-help ul li:nth-of-type(4n+1) a span::after {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.39 10.39"><circle cx="5.2" cy="5.2" r="5.2" fill="%230095c5"/><polygon points="4.25 7.93 3.72 7.08 6.3 5.43 3.89 3.03 4.6 2.33 7.89 5.61 4.25 7.93" fill="%23fff"/></svg>');
+}
+.how-help ul li:nth-of-type(4n+2) a span::after {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.39 10.39"><circle cx="5.2" cy="5.2" r="5.2" fill="%23aa55a1"/><polygon points="4.25 7.93 3.72 7.08 6.3 5.43 3.89 3.03 4.6 2.33 7.89 5.61 4.25 7.93" fill="%23fff"/></svg>');
+}
+.how-help ul li:nth-of-type(4n+3) a span::after {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.39 10.39"><circle cx="5.2" cy="5.2" r="5.2" fill="%2300b274"/><polygon points="4.25 7.93 3.72 7.08 6.3 5.43 3.89 3.03 4.6 2.33 7.89 5.61 4.25 7.93" fill="%23fff"/></svg>');
+}
+.how-help ul li:nth-of-type(4n+4) a span::after {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.39 10.39"><circle cx="5.2" cy="5.2" r="5.2" fill="%23594579"/><polygon points="4.25 7.93 3.72 7.08 6.3 5.43 3.89 3.03 4.6 2.33 7.89 5.61 4.25 7.93" fill="%23fff"/></svg>');
+}
+
+.how-help ul li:hover a {
+    opacity: .8;
+}
+
+.how-help ul li:hover a span::after {
+    transform: translateX(.25rem);
+}
+.how-help ul li:nth-of-type(4n+1):hover a span {
+    color: var(--blue);
+}
+.how-help ul li:nth-of-type(4n+2):hover a span {
+    color: var(--pink);
+}
+.how-help ul li:nth-of-type(4n+3):hover a span {
+    color: var(--green);
+}
+.how-help ul li:nth-of-type(4n+4):hover a span {
+    color: var(--purple);
 }

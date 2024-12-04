@@ -22,5 +22,38 @@
     .domestic-abuse .card-link h3 {
         font-size: 1.25rem;
     }
+
+    .who-help .circle-text-svg {
+        width: 17rem;
+        z-index: 9;
+        flex-shrink: 0;
+        z-index: 9;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .who-help .container .circle-text-svg:nth-of-type(1) {
+        left: -20px;
+    }
+    .who-help .container .circle-text-svg:nth-of-type(2) {
+        right: -20px;
+    }
+    .who-help img {
+        width: 80%;
+        transform: unset;
+        /* width: 70%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        transform: translateX(0);
+        z-index: -1; */
+        
+    }
+    .who-help .container .circle-text-svg:nth-of-type(1) {
+        margin-bottom: 0rem;
+    }
+    .who-help .container .circle-text-svg:nth-of-type(2) {
+        margin-top: 0rem;
+    }
     
 }

@@ -11,4 +11,10 @@
     .domestic-abuse h2 {
         font-size: 3.5rem;
     }
+    .who-help img {
+        width: 90%;
+    }
+    .who-help .circle-text-svg {
+        width: 28rem;
+    }
 }
