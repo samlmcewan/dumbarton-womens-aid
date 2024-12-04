@@ -377,8 +377,13 @@ svg .text-container div p span {
 /*--------------------------------------------------------------
 # Who we can help
 --------------------------------------------------------------*/
+.who-help {
+    z-index: 1;
+}
 .who-help .container {
     position: relative;
+    z-index: 1;
+    margin-bottom: -5rem;
 }
 .who-help .circle-text-svg {
     padding: 3rem;
@@ -397,11 +402,16 @@ svg .text-container div p span {
     transform: translateX(-25%);
     z-index: -1;
 }
+.who-help .divider-angle {
+    /* margin-top: -10rem; */
+    z-index: -9;
+}
 /*--------------------------------------------------------------
 # How we can help you
 --------------------------------------------------------------*/
 .how-help {
-    margin-top: -10rem;
+    /* margin-top: calc(-10rem); */
+    z-index: -1;
 }
 .how-help .container-fluid{
     background-color: var(--lightGray);
@@ -484,4 +494,52 @@ svg .text-container div p span {
 }
 .how-help ul li:nth-of-type(4n+4):hover a span {
     color: var(--purple);
+}
+/*--------------------------------------------------------------
+# Our Stories
+--------------------------------------------------------------*/
+.our-stories {
+    margin-top: -7rem;
+    z-index: 99999;
+}
+.our-stories .container-fluid:nth-of-type(2) {
+    background-color: var(--lightGray);
+}
+.our-stories .img-container {
+    position: relative;
+}
+.our-stories .img-bg {
+    position: absolute;
+    top: 7rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 66%;
+    z-index: -1;
+}
+.our-stories .circle-text-svg {
+    padding: 2rem 2rem 20rem 5rem;
+}
+.our-stories .container-fluid:nth-of-type(2) p {
+    color: var(--purple);
+    font-size: 1.5rem;
+    line-height: calc(1.7*1.5rem);
+    font-weight: 300;
+}
+.our-stories .quote {
+    width: 30%;
+}
+.our-stories .container-fluid:nth-of-type(2) .quote-text p {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1.25rem;
+    line-height: calc(1.7*1.25rem);
+    font-family: "Poppins", sans-serif;
+}
+.our-stories .container-fluid:nth-of-type(2) .quote-text p.author {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: unset;
+        margin-left: auto;
+    
 }

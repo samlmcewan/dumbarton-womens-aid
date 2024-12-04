@@ -12,5 +12,12 @@
         justify-content: space-between;
         align-items: end;
     }
+    .our-stories .circle-text-svg {
+        width: 29rem;
+        padding: 2rem 5rem 13rem 2rem;
+    }
+    .our-stories .quote {
+        width: 20!important;
+    }
 
 }

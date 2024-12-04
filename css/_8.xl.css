@@ -133,6 +133,21 @@ a.dropdown-item.active {
 .who-help .circle-text-svg {
     width: 26rem;
 }
+
+.who-help .container {
+    margin-bottom: -4rem;
+}
+.our-stories .img-container {
+    height: 50rem;
+}
+
+.our-stories .img-bg {
+    
+}
+.our-stories .circle-text-svg {
+    width: 36rem;
+    padding: 2rem 0rem 0 6rem;
+}
     
 }
         

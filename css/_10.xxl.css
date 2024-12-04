@@ -17,4 +17,14 @@
     .who-help .circle-text-svg {
         width: 28rem;
     }
+    .who-help .container {
+        margin-bottom: -5rem;
+    }
+    .our-stories .img-container {
+        height: 50rem;
+    }
+    .our-stories .circle-text-svg {
+        width: 45rem;
+        padding: 2rem 0rem 0 9rem;
+    }
 }
