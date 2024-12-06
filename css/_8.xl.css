@@ -148,6 +148,65 @@ a.dropdown-item.active {
     width: 36rem;
     padding: 2rem 0rem 0 6rem;
 }
+
+.cta .img-container {
+    height: 50rem;
+}
+
+.cta .circle-text-svg {
+    width: 36rem;
+    padding: 2rem 0rem 0 6rem;
+}
+.cta .container-fluid a:nth-of-type(1) .circle-text-svg {
+    width: 25rem;
+    padding: 26rem 2rem 0rem 3rem;
+}
+.cta .container-fluid a:nth-of-type(1) {
+    position: absolute;
+    left: 3rem;
+    bottom: 0;
+}
+.cta .container-fluid a:nth-of-type(2) {
+    position: absolute;
+    right: 5rem;
+}
+.cta .img-bg {
+    height: 85%;
+}
+.cta .img-container {
+    height: 60rem;
+}
+/* Footer - Large Devices */
+
+.shfooter .collapse {
+    display: block;
+    }
+    footer .fa-chevron-right {
+    display: inline-block;
+    }
+    footer ul li {
+    margin-bottom: 10px;
+    
+    }
+    footer ul li span {
+        display: inline-block;
+    }
+    footer ul li a:hover span {
+        animation: arrow-right 0.3s linear forwards; 
+              
+          }
+      
+      @keyframes arrow-right {
+        from {
+          transform: translateX(0px); }
+        to {
+          transform: translateX(2px); } 
+          
+      }
+    
+      #footer .footer-title {
+        font-size: 1.5rem;
+      }
     
 }
         

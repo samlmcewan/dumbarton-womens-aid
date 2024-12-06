@@ -27,4 +27,15 @@
         width: 45rem;
         padding: 2rem 0rem 0 9rem;
     }
+    .cta .img-container {
+        height: 50rem;
+    }
+    .cta .circle-text-svg {
+        width: 45rem;
+        padding: 2rem 0rem 0 9rem;
+    }
+    .cta .container-fluid a:nth-of-type(2) .circle-text-svg {
+        padding: 0rem 0rem 10rem 7rem;
+    }
+    
 }

@@ -504,6 +504,7 @@ svg .text-container div p span {
 }
 .our-stories .container-fluid:nth-of-type(2) {
     background-color: var(--lightGray);
+    padding-bottom: 8rem;
 }
 .our-stories .img-container {
     position: relative;
@@ -542,4 +543,331 @@ svg .text-container div p span {
         font-style: unset;
         margin-left: auto;
     
+}
+/*--------------------------------------------------------------
+# CTA
+--------------------------------------------------------------*/
+section.cta {
+    margin-top: -7rem;
+}
+.cta .img-container {
+    position: relative;
+}
+.cta .img-bg {
+    position: absolute;
+    top: 7rem;
+    height: 75%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 66%;
+    z-index: -1;
+}
+.cta .circle-text-svg {
+    padding: 0rem 2rem 5rem 2rem;
+    z-index: 9;
+} 
+
+.cta .container-fluid a:nth-of-type(2) .circle-text-svg {
+    padding: 5rem 2rem 0rem 2rem;
+}
+.cta a .circle-text-svg g circle {
+    transition: all .3s;
+}
+.cta a:hover .circle-text-svg g circle:nth-of-type(3) {
+    fill: var(--green)!important;
+}
+/*--------------------------------------------------------------
+# partners
+--------------------------------------------------------------*/
+
+.partners .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #cfcdce!important;
+    transition: all .3s;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    color: var(--pinkBright)!important;
+}
+/*--------------------------------------------------------------
+# Domestic Abuse 2
+--------------------------------------------------------------*/
+.domestic-abuse-2 .container-fluid {
+    background-color: var(--blue);
+}
+.domestic-abuse-2 h2 {
+    color: var(--white);
+    margin-bottom: 3rem;
+}
+.domestic-abuse-2 p {
+    color: var(--white);
+    font-size: 1.875rem;
+    line-height: calc(1.7*2rem);
+    font-weight: 300;
+}
+
+.domestic-abuse-2 a.btn-more {
+    text-transform: uppercase;
+    color: var(--purple);
+    text-decoration: none;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: var(--white);
+    padding: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: -5.5rem;
+    transition: all .1s;
+}
+.domestic-abuse-2 a.btn-more:hover {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+/* .circle-text-svg g circle:nth-of-type(1) {
+    animation: moveCircles 10s ease-in-out infinite;
+}
+@keyframes moveCircles {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(-5px, 10px);
+    }
+  }
+.circle-text-svg g circle:nth-of-type(2) {
+    animation: moveCircles2 10s ease-in-out infinite;
+}
+@keyframes moveCircles2 {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(5px, -10px);
+    }
+  } */
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+    font-size: .875rem;
+}
+footer .logo-footer {
+    width: 16rem;
+}
+
+
+footer#footer {
+    /* border-top: 2px solid var(--gold); */
+}
+    footer a span {
+        /* color: var(--cyan); */
+    }
+
+    footer .footer-title {
+        font-weight: 400;
+        font-family: "Barlow Condensed", sans-serif;
+        text-transform: uppercase;
+        color: var(--purple);
+        font-weight: 700;
+    }
+
+
+
+    footer a {
+        color: var(--black);
+        font-size: .875rem;
+        text-decoration: none;
+        font-weight: 400;
+    }
+
+        footer a:hover {
+            /* text-decoration: underline; */
+            color: var(--green);
+        }
+
+            
+
+
+.footer-title {
+    font-size: 1.25rem;
+    /*font-weight: 500;*/
+    margin-bottom: 20px;
+}
+footer .navbar-toggler {
+    border: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    padding-left: 2.3rem;
+    text-indent: -1.1rem;
+}
+footer .fa-angle-right {
+   height: 20px;
+}
+footer .fa-angle-down {
+    width: 20px;
+}
+footer .fa-chevron-right {
+    /*color: #ffffff;*/
+    /*color: #ffffff;*/
+    padding-right: 0.2rem;
+}
+
+.shfooter .collapse {
+    display: inherit;
+}
+
+/* .shfooter i::before {
+    color: var(--light);
+} */
+
+
+.resize {
+    text-align: center;
+}
+
+.resize {
+    margin-top: 3rem;
+    font-size: 1.25rem;
+}
+
+/* Social footer  */
+footer .fa-brands {
+    width: 7%;
+}
+
+footer .fab:before {
+    font-size: 1.1rem;
+}
+
+.social-footer a:hover svg {
+    /*color: var(--links); */
+    animation: icons-rise 0.3s linear forwards;
+}
+
+#footer .social-logos svg {
+   width: 30px;
+   height: 30px;
+   transition: all .3s;
+}
+#footer .social-logos svg g rect{
+   
+    transition: all .3s;
+ }
+#footer h4 {
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+@keyframes icons-rise {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translate(2.5px, -2.5px);
+    }
+}
+
+.social-footer a:hover {
+    text-decoration: none;
+}
+
+    .social-footer a:hover span {
+        text-decoration: underline;
+    }
+
+@keyframes arrow-right {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(3px);
+    }
+}
+
+
+
+footer hr:not([size]) {
+    height: 1px;
+    /* color: var(--hcs-blue); */
+    opacity: .8;
+}
+
+footer ul li {
+    padding-left: 0;
+    text-indent: 0;
+    /* remove this if issue 616 617 */
+    display: flex;
+    align-items: center;
+}
+
+footer .fa-chevron-right {
+    display: none;
+}
+
+.footer-title {
+    margin-bottom: 0;
+}
+
+.shfooter ul {
+    margin-bottom: 0;
+}
+
+.shfooter .collapse {
+    display: none;
+}
+
+    .shfooter .collapse.show {
+        display: block;
+    }
+
+.shfooter .title .fa-angle-down,
+.shfooter .title[aria-expanded=true] .fa-angle-right {
+    display: none;
+}
+
+.shfooter .title[aria-expanded=true] .fa-angle-down {
+    display: block;
+}
+
+.shfooter .navbar-toggler {
+    display: inline-block;
+    padding: 0;
+}
+
+footer .helpline {
+    color: var(--purple);
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: all .3s;
+}
+footer .helpline:hover {
+    color: var(--green);
+}
+
+footer a, footer p, footer h3 {
+    color: var(--purple);
+}
+
+footer li a::before {
+    content: "\00BB";
+    margin-right: .25rem;
+    display: inline-block;
+    transition: all .3s;
+}
+footer li a:hover::before {
+    transform: translateX(.125rem);
+    color: var(--green);
+}
+
+footer #social svg {
+    width: 2rem;
 }

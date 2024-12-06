@@ -16,8 +16,21 @@
         width: 29rem;
         padding: 2rem 5rem 13rem 2rem;
     }
+    
     .our-stories .quote {
-        width: 20!important;
+        width: 100%;
+    }
+
+    .cta .circle-text-svg {
+        width: 29rem;
+        padding: 2rem 5rem 13rem 2rem;
+    }
+    .cta .container-fluid a:nth-of-type(2) .circle-text-svg {
+        padding: 0rem 3rem 10rem 4rem;
+    }
+    .cta .container-fluid a:nth-of-type(1) .circle-text-svg {
+        width: 22rem;
+        padding: 20rem 2rem 0rem 3rem;
     }
 
 }
